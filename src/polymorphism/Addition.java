@@ -2,6 +2,7 @@ package polymorphism;
 
 public class Addition {
 
+	// Constructor Overloading
 	public Addition() {
 		
 	}
@@ -16,6 +17,8 @@ public class Addition {
 		this.dx = a;
 		this.dy = b;
 	}
+	
+	//Method Overloading
 	
 	public int add(int a, int b) {
 		return a+b;
